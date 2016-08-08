@@ -107,6 +107,8 @@ enum log_sev_t
    LSETPAR   = 91, /* set_chunk_parent() */
    LSETTYP   = 92, /* set_chunk_type() */
    LSETFLG   = 93, /* set_chunk_flags() */
+   LTOKSEE   = 94, /* Shows all tokens processed on 'convert_vbrace_to_brace' and 'tokenize.cpp' */
+
    LGUY      = 99, /* for guy-test */
 };
 
